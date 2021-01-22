@@ -1,10 +1,13 @@
+//https://github.com/mrakib007/javascript-assignment1
+
+
 // problem one
 function kilometerToMeter(kilometer){        //required function
     if(kilometer<0){
-        return "Distence can't be negetive";
+        return "Distance can't be negetive";
     }
     else
-        return kilometer*1000;
+        return kilometer*1000;  //returning result
 }
 var meter = kilometerToMeter(60);
 console.log(meter);
@@ -17,19 +20,19 @@ function budgetCalculator(watch,phone,laptop){      //required function
     }
     else{
     var total = watch*50 + phone*100 + laptop*500 ;
-    return total;
+    return total;                   //returning result
 }
 }
 
-var result = budgetCalculator(0,-1,9);
+var result = budgetCalculator(3,4,5);
 console.log(result);
 
 
-// problen three 
+// problem three 
 function hotelCost(days){        //required function
     var total = 0;
      
-   if(days<0) 
+  if(days<0) 
     return "days can't be negative";
  
   else if(days<=10){
@@ -48,7 +51,7 @@ function hotelCost(days){        //required function
       var third = remaining*50;
       total = first + second + third ;
   }
-  return total;
+  return total;                //returning result
 }
 var totalCost = hotelCost(22);
 console.log(totalCost);
@@ -61,7 +64,7 @@ var max = friend[0].length;
 var max2 = friend[0];
 
 for(i=0;i<friend.length;i++){
-
+   
     var length1 = friend[i].length;
     var length2 = friend[i];
 
@@ -70,7 +73,7 @@ for(i=0;i<friend.length;i++){
        max2=friend[i];
     }
 }
-   return max2;
+   return max2; //returning the largest string
 }
-var friend = megaFriend(["Rakib","Sakib","Shovon","Shawon","Zubair","Rakibul","sakibul"]);
+var friend = megaFriend(["Rakib","Sakib","Shovon","Shawon","Zubair","Rafikul","Rakibulh","sakibul"]);
 console.log(friend);
