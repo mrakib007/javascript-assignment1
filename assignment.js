@@ -13,6 +13,9 @@ var meter = kilometerToMeter(60);
 console.log(meter);
 
 
+
+
+
 // problem two
 function budgetCalculator(watch,phone,laptop){      //required function
     if(watch <0 || phone<0 || laptop<0 ){
@@ -26,6 +29,10 @@ function budgetCalculator(watch,phone,laptop){      //required function
 
 var result = budgetCalculator(3,4,5);
 console.log(result);
+
+
+
+
 
 
 // problem three 
@@ -57,6 +64,10 @@ var totalCost = hotelCost(22);
 console.log(totalCost);
 
 
+
+
+
+
 // problem four 
 function  megaFriend(friend){   //required function
    var i;
@@ -75,5 +86,5 @@ for(i=0;i<friend.length;i++){
 }
    return max2; //returning the largest string
 }
-var friend = megaFriend(["Rakib","Sakib","Shovon","Shawon","Zubair","Rafikul","Rakibulh","sakibul"]);
+var friend = megaFriend(["Rakib","Sakib","Shovon","Shawon","Zubair","Rafikul","Rakibul","sakibul"]);
 console.log(friend);
